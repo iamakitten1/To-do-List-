@@ -3,7 +3,7 @@ import  { useState } from "react";
 
 
 export default function Checkbox({ defaultChecked = false }) {
-    const [checked, setChecked] = useState(defaultChecked);
+    // const [checked, setChecked] = useState(defaultChecked);
 
     const handleClick = () => {
         setChecked(!checked); // Toggle the checked state
